@@ -1,9 +1,8 @@
-import random # For generating random numbers
-import sys # We will use sys.exit to exit the program
+import random 
+import sys
 import pygame
-from pygame.locals import * # Basic pygame imports
+from pygame.locals import * 
 
-# Global Variables for the game
 FPS = 32
 SCREENWIDTH = 289
 SCREENHEIGHT = 511
@@ -11,14 +10,12 @@ SCREEN = pygame.display.set_mode((SCREENWIDTH, SCREENHEIGHT))
 GROUNDY = SCREENHEIGHT * 0.8
 GAME_SPRITES = {}
 GAME_SOUNDS = {}
-PLAYER = '/Users/hirangpatel/Documents/PythonGameFiles/images.jpeg'
-BACKGROUND = '/Users/hirangpatel/Documents/PythonGameFiles/download.jpeg'
-PIPE = '/Users/hirangpatel/Documents/PythonGameFiles/download (1).jpeg'
+PLAYER = '/Users/Documents/PythonGameFiles/images.jpeg'
+BACKGROUND = '/Users/Documents/PythonGameFiles/download.jpeg'
+PIPE = '/Users/Documents/PythonGameFiles/download(1).jpeg'
 
 def welcomeScreen():
-    """
-    Shows welcome images on the screen
-    """
+    
 
     playerx = int(SCREENWIDTH/5)
     playery = int((SCREENHEIGHT - GAME_SPRITES['player'].get_height())/2)
