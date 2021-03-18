@@ -189,16 +189,16 @@ if __name__ == "__main__":
     FPSCLOCK = pygame.time.Clock()
     pygame.display.set_caption('Flappy Bird by CodeWithHarry')
     GAME_SPRITES['numbers'] = ( 
-        pygame.image.load('/Users/hirangpatel/Downloads/0-Number-PNG.png').convert_alpha(),
-        pygame.image.load('/Users/hirangpatel/Downloads/1-Number-PNG.png').convert_alpha(),
-        pygame.image.load('/Users/hirangpatel/Downloads/2-Number-PNG.png').convert_alpha(),
-        pygame.image.load('/Users/hirangpatel/Downloads/3-Number-PNG.png').convert_alpha(),
-        pygame.image.load('/Users/hirangpatel/Downloads/4-Number-PNG.png').convert_alpha(),
-        pygame.image.load('/Users/hirangpatel/Downloads/5-Number-PNG.png').convert_alpha(),
-        pygame.image.load('/Users/hirangpatel/Downloads/6-Number-PNG.png').convert_alpha(),
-        pygame.image.load('/Users/hirangpatel/Downloads/7-Number-PNG.png').convert_alpha(),
-        pygame.image.load('/Users/hirangpatel/Downloads/8-Number-PNG.png').convert_alpha(),
-        pygame.image.load('/Users/hirangpatel/Downloads/9-Number-PNG.png').convert_alpha(),
+        pygame.image.load('/Users/Downloads/0-Number-PNG.png').convert_alpha(),
+        pygame.image.load('/Users/Downloads/1-Number-PNG.png').convert_alpha(),
+        pygame.image.load('/Users/Downloads/2-Number-PNG.png').convert_alpha(),
+        pygame.image.load('/Users/Downloads/3-Number-PNG.png').convert_alpha(),
+        pygame.image.load('/Users/Downloads/4-Number-PNG.png').convert_alpha(),
+        pygame.image.load('/Users/Downloads/5-Number-PNG.png').convert_alpha(),
+        pygame.image.load('/Users/Downloads/6-Number-PNG.png').convert_alpha(),
+        pygame.image.load('/Users/Downloads/7-Number-PNG.png').convert_alpha(),
+        pygame.image.load('/Users/Downloads/8-Number-PNG.png').convert_alpha(),
+        pygame.image.load('/Users/Downloads/9-Number-PNG.png').convert_alpha(),
     )
 
    
